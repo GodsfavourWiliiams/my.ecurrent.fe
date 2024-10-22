@@ -1,4 +1,4 @@
-import AppLayout from '@/components/common/layout';
+import AppLayout from '@/components/shared/layout';
 import React from 'react';
 
 type Props = {

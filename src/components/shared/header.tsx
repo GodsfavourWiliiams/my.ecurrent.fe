@@ -33,7 +33,7 @@ export default function Header() {
               <li key={item.path}>
                 <Link
                   href={item.path}
-                  className={`text-[#12305B] hover:text-[#12305B]/80 transition-colors ${
+                  className={`text-primary hover:text-primary/80 transition-colors ${
                     pathname === item.path ? 'font-bold' : ''
                   }`}
                 >
@@ -47,7 +47,7 @@ export default function Header() {
         {/* Mobile Menu Button */}
         <button
           onClick={toggleMenu}
-          className="md:hidden text-[#12305B]"
+          className="md:hidden text-primary"
           aria-label="Toggle menu"
         >
           {isMenuOpen ? (
@@ -70,7 +70,7 @@ export default function Header() {
                 <Link
                   href={item.path}
                   onClick={() => setIsMenuOpen(false)}
-                  className={`block p-2 text-[#12305B] hover:text-[#12305B]/80 hover:bg-slate-50 rounded-xl transition-colors ${
+                  className={`block p-2 text-primary hover:text-primary/80 hover:bg-slate-50 rounded-xl transition-colors ${
                     pathname === item.path ? 'font-bold' : ''
                   }`}
                 >

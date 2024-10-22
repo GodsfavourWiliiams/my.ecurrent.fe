@@ -21,5 +21,5 @@ body {
 }
 
 .app-container {
-  @apply mx-auto w-[1280px] max-w-[90%] xl:max-w-[95%];
+  @apply mx-auto w-[1169px] max-w-[90%] xl:max-w-[95%];
 }

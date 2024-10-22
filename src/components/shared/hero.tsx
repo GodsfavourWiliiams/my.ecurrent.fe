@@ -22,10 +22,10 @@ export default function Hero() {
 
   if (variant === 'faqs') {
     return (
-      <div className="py-12 h-[596px] bg-[#FBF9F2] flex flex-col items-center justify-center">
+      <div className="py-12 h-[596px] bg-secondary flex flex-col items-center justify-center">
         <div className="app-container mx-auto flex flex-col gap-5 items-start justify-start">
-          <p className="text-[#12305B] text-lg">We&apos;re here to help you</p>
-          <h1 className="text-4xl sm:text-[60px]  font-semibold text-[#12305B] ">
+          <p className="text-primary text-lg">We&apos;re here to help you</p>
+          <h1 className="text-4xl sm:text-[60px]  font-semibold text-primary ">
             How can we assist?
           </h1>
           <div className="relative w-full">
@@ -61,7 +61,7 @@ export default function Hero() {
         unoptimized
       />
       <div className="app-container absolute inset-0 flex flex-col justify-center">
-        <div className="max-w-xl text-[#12305B] space-y-4 sm:pace-y-6">
+        <div className="max-w-xl text-primary space-y-4 sm:pace-y-6">
           <p className="text-lg">We&apos;re here to help you</p>
           <h1 className="text-4xl sm:text-[60px] font-bold ">Relax & Rest</h1>
           {isHomeVariant && (
@@ -72,7 +72,7 @@ export default function Hero() {
               </p>
               <Link
                 href="/shop"
-                className="bg-[#FC5959] text-sm font-semibold block text-white py-4 w-[225px] text-center rounded-md hover:bg-red-600"
+                className="bg-coral text-sm font-semibold block text-white py-4 w-[225px] text-center rounded-md hover:bg-coral/60"
               >
                 Visit Shop
               </Link>

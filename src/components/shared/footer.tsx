@@ -37,9 +37,9 @@ const SocialIcon = ({ icon, href, label }: SocialIconProps) => {
     <Link
       href={href}
       aria-label={label}
-      className="group relative flex h-10 w-10 items-center justify-center rounded-full bg-[#8FE2FF] transition-all hover:bg-[#12305B] hover:scale-110"
+      className="group relative flex h-10 w-10 items-center justify-center rounded-full bg-[#8FE2FF] transition-all hover:bg-primary hover:scale-110"
     >
-      <IconComponent className="h-5 w-5 text-[#12305B] transition-colors group-hover:text-white" />
+      <IconComponent className="h-5 w-5 text-primary transition-colors group-hover:text-white" />
     </Link>
   );
 };
@@ -48,8 +48,8 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-[#12305B] text-white">
-      <div className="app-container mx-auto py-16">
+    <footer className="relative bg-primary text-white">
+      <div className="mx-auto w-[1325px] max-w-[90%] xl:max-w-[95%] py-16">
         {/* Logo Section */}
         <div className="mb-12 flex justify-center">
           <AppLogo className="h-20 w-32 transition-opacity hover:opacity-90" />
