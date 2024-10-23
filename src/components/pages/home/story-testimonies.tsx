@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function StoryAndTestimonial() {
   return (
-    <div className="app-container mx-auto py-12 mt-10 flex flex-col items-center justify-between md:flex-row gap-8">
+    <div className="app-container mx-auto py-12 mt-20 sm:mt-10 flex flex-col items-center justify-between md:flex-row gap-8">
       <div className="w-full sm:max-w-[475px] h-[366px] border border-black flex flex-col gap-6">
         <h3 className="text-sm text-primary">Our Amazing Story</h3>
         <div className="relative inline-block w-fit mb-4">

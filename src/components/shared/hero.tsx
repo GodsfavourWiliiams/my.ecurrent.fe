@@ -81,7 +81,7 @@ export default function Hero() {
         </div>
       </div>
       {isHomeVariant && (
-        <div className=" transform translate-y-1/2 max-w-[1276px] w-full mx-auto absolute bottom-0 right-0 p-6 sm:p-8 bg-white border border-black shadow-[0_50px_100px_-20px_rgba(0,0,0,0.1459)]">
+        <div className="max transform translate-y-1/2 max-w-[1276px] w-full mx-auto absolute bottom-0  4xl:left-0 right-0 p-6 sm:p-8 bg-white border border-black shadow-[0_50px_100px_-20px_rgba(0,0,0,0.1459)]">
           <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center items-center gap-5 sm:gap-10">
             <div className="w-[146px] h-[41px] sm:h-[51px]">
               <Image

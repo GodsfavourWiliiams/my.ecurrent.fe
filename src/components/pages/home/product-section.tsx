@@ -30,7 +30,7 @@ export default function Product() {
       </div>
 
       {/* Our Mission Section */}
-      <div className="mx-auto max-w-[90%] md:max-w-full flex flex-col md:flex-row items-start md:items-center relative">
+      <div className="mx-auto max-w-[90%] md:max-w-full flex flex-col md:flex-row items-start md:items-center relative 4xl:w-[1200px]">
         <div className="md:block hidden shrink-0 snap-center w-[3%] nano:w-[3%] md:w-[5%] xl:w-[8%] 2xl:w-[10%] 3xl:w-[15%] 4xl-[1704px]:hidden h-48" />
         <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
           <h2 className="text-4xl font-bold text-primary mb-5">Our Mission</h2>
