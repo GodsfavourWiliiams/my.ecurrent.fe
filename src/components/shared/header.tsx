@@ -62,7 +62,7 @@ export default function Header() {
         <div
           className={`${
             isMenuOpen ? 'right-0' : '-right-[300px]'
-          } md:hidden  absolute top-full bg-white rounded-2xl shadow-lg transition-all ease-in-out duration-300 w-40`}
+          } md:hidden absolute top-full bg-white rounded-2xl shadow-lg transition-all ease-in-out duration-300 w-40`}
         >
           <ul className="flex flex-col space-y-4 p-4">
             {navItems.map((item) => (

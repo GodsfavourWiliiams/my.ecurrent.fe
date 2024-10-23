@@ -23,9 +23,9 @@ export default function Hero() {
   if (variant === 'faqs') {
     return (
       <div className="py-12 h-[596px] bg-secondary flex flex-col items-center justify-center">
-        <div className="app-container mx-auto flex flex-col gap-5 items-start justify-start">
+        <div className="app-container mx-auto flex flex-col gap-6 items-start justify-start">
           <p className="text-primary text-lg">We&apos;re here to help you</p>
-          <h1 className="text-4xl sm:text-[60px]  font-semibold text-primary ">
+          <h1 className="text-3xl sm:text-[60px] font-semibold text-primary ">
             How can we assist?
           </h1>
           <div className="relative w-full">

@@ -9,12 +9,12 @@ type Props = {
 
 const AppLayout = ({ children }: Props) => {
   return (
-    <div className="relative flex flex-col gap-6">
+    <div className="relative flex flex-col gap-6 overflow-x-hidden">
       <div>
         <Header />
         <Hero />
       </div>
-      <div className="space-y-6 py-20">{children}</div>
+      <div className="space-y-6 py-10 sm:py-20">{children}</div>
       <Footer />
     </div>
   );

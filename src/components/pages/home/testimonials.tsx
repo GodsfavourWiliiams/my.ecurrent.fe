@@ -21,6 +21,10 @@ const testimonials = [
       'Helps me relax and remember to breathe. Stress level definitely goes down',
     name: 'Jane Bocks',
   },
+  {
+    quote: "It's a really good product and helps me sleep better at night!",
+    name: 'Laura Davies',
+  },
 ];
 
 export function TestimonialCarousel() {
@@ -28,12 +32,11 @@ export function TestimonialCarousel() {
     <div className="py-12">
       <Carousel>
         {testimonials.map((testimonial, index) => (
-          <div key={index} className="px-2">
-            <TestimonialCard
-              quote={testimonial.quote}
-              name={testimonial.name}
-            />
-          </div>
+          <TestimonialCard
+            key={index}
+            quote={testimonial.quote}
+            name={testimonial.name}
+          />
         ))}
       </Carousel>
     </div>

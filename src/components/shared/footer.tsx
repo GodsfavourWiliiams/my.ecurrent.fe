@@ -5,15 +5,14 @@ import Link from 'next/link';
 import { AppLogo } from './app-logo';
 import { ReactNode } from 'react';
 import { FOOTER_DATA } from '@/utils/static';
+import Image from 'next/image';
 
-// Interface for FooterSection props
 interface FooterSectionProps {
   title: string;
   children: ReactNode;
   className?: string;
 }
 
-// Interface for SocialIcon props
 interface SocialIconProps {
   icon: string;
   href: string;
@@ -32,7 +31,7 @@ const FooterSection = ({
 );
 
 const SocialIcon = ({ icon, href, label }: SocialIconProps) => {
-  const IconComponent = Icons[icon as keyof typeof Icons]; // Dynamically fetch the icon component
+  const IconComponent = Icons[icon as keyof typeof Icons];
   return (
     <Link
       href={href}
@@ -48,8 +47,18 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-primary text-white">
-      <div className="mx-auto w-[1325px] max-w-[90%] xl:max-w-[95%] py-16">
+    <footer className="relative text-white bg-[#183f7a] z-10">
+      <div className="absolute inset-0 w-full h-full z-50">
+        <Image
+          src="/Object.svg"
+          alt="Footer background"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+        />
+      </div>
+
+      <div className="relative z-10 mx-auto w-[1325px] max-w-[90%] xl:max-w-[95%] py-16 ">
         {/* Logo Section */}
         <div className="mb-12 flex justify-center">
           <AppLogo className="h-20 w-32 transition-opacity hover:opacity-90" />
@@ -93,16 +102,17 @@ export default function Footer() {
 
           {/* Consumer Advisory */}
           <FooterSection title="CONSUMER ADVISORY" className="xl:col-span-4">
-            <div className="space-y-4 text-sm leading-relaxed text-white">
+            <div className="space-y-4 leading-relaxed text-white max-w-[463px]">
               <p>
                 These statements have not been evaluated by the Food and Drug
                 Administration. This product is not intended to diagnose, treat,
                 cure, or prevent any disease. This product should be used only
                 as directed on the label.
               </p>
+              <br />
               <p>
-                By using our website or product, you agree to follow our terms
-                of service.
+                By using our website or product, you agree to follow our{' '}
+                <span className="text-[#8FE2FF]">terms of service</span>.
               </p>
             </div>
           </FooterSection>

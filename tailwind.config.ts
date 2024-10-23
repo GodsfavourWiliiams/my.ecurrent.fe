@@ -38,9 +38,9 @@ const config: Config = {
 
         xl: '1280px',
         // => @media (min-width: 1280px) { ... }
-        '2xl': '1536px',
+        '2xl': '1450px',
         // => @media (min-width: 1536px) { ... }
-        '3xl': '1636px',
+        '3xl': '1600px',
         // => @media (min-width: 1636px) { ... }
         '4xl': '1736px',
         // => @media (min-width: 1736px) { ... }
