@@ -38,7 +38,8 @@ export default function Product() {
             We started Sleepstiq with 1 simple goal: to be your best friend at
             bedtime. We, just like you, deal with stress, unease, and trouble
             sleeping from a number of silly things like school, work, screens,
-            numbers, and people. That's why we created products that aim to -
+            numbers, and people. That&apos;s why we created products that aim to
+            -
           </p>
           <ul className="space-y-2 text-navy-dark/60">
             {[

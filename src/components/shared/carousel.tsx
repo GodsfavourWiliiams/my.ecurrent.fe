@@ -10,7 +10,6 @@ export function Carousel({ children }: CarouselProps) {
   const [currentIndex] = useState(0);
   const carouselRef = useRef<HTMLDivElement>(null);
 
-  const totalItems = children.length;
   const itemWidth = 320; // Width of each item including margin
 
   useEffect(() => {

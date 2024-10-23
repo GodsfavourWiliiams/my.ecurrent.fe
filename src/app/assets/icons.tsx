@@ -16,13 +16,11 @@ export const Icons = {
           stroke="#2C3E50"
           strokeWidth="2.75"
           strokeLinecap="round"
-          strokeLinecap="round"
         />
         <path
           d="M28 28L20 20"
           stroke="#2C3E50"
           strokeWidth="2.75"
-          strokeLinecap="round"
           strokeLinecap="round"
         />
       </g>

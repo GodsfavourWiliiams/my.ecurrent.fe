@@ -22,7 +22,7 @@ export default function StoryAndTestimonial() {
           </h2>
         </div>
         <p className="text-navy-dark/60">
-          There's no secret sauce, no wizard behind the curtain. What makes
+          There&apos;s no secret sauce, no wizard behind the curtain. What makes
           Aerolab tick is an interdisciplinary team with a framework that
           fosters candid collaboration.
         </p>
@@ -33,8 +33,8 @@ export default function StoryAndTestimonial() {
 
       <div className="w-full max-w-[474px] h-96 sm:h-[455px] bg-secondary p-8 flex flex-col justify-between border border-black shadow-[0_100px_100px_-20px_rgba(0,0,0,0.1459)]">
         <p className="text-lg sm:text-2xl text-olive font-semibold italic mb-6 leading-[40px]">
-          I'm a very anxious person but use this and feel so relaxed and sleep
-          way better now with the aid of sleepstiq.
+          I&apos;m a very anxious person but use this and feel so relaxed and
+          sleep way better now with the aid of sleepstiq.
         </p>
         <div className="">
           <div className="flex items-center gap-4">
